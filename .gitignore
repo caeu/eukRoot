@@ -37,3 +37,7 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+
+# Local revisions tests
+rev*_tests*.Rmd
+rev*_tests*.nb.html

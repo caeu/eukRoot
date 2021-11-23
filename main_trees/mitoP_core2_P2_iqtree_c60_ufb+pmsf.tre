@@ -1,0 +1,171 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=70;
+	taxlabels
+	'am-AM_Acanthamoeba_castellanii'[&!color=#6699ff]
+	'am-AM_Dictyostelium_discoideumB'[&!color=#6699ff]
+	'am-AMEumy_Clastostelium_recurvatum'[&!color=#6699ff]
+	'am-AM_Filamoeba_nolandi'[&!color=#6699ff]
+	'am-AMVari_Protostelium_nocturnum'[&!color=#6699ff]
+	'am-AMVari_Cavostelium_apophysatum'[&!color=#6699ff]
+	'am-AMCory_Diplochlamys_sp'[&!color=#6699ff]
+	'am-AMEchi_Echinamoeba_exudans'[&!color=#6699ff]
+	'am-AMEchi_Vermamoeba_vermiformis'[&!color=#6699ff]
+	'am-AMElar_Cryptodifflugia_operculata'[&!color=#6699ff]
+	'am-FU_Batrachochytrium_dendrobatidis'[&!color=#0080ff]
+	'am-FU_Gonapodya_prolifera'[&!color=#0080ff]
+	'am-FU_Mortierella_elongata'[&!color=#0080ff]
+	'am-FU_Rhizophagus_irregularis'[&!color=#0080ff]
+	'am-HO_Acanthoecalike_sp'[&!color=#0000ff]
+	'am-HO_Monosiga_brevicollis'[&!color=#0000ff]
+	'am-HO_Salpingoeca_rosetta'[&!color=#0000ff]
+	'am-HO_Branchiostoma_floridae'[&!color=#0000ff]
+	'am-HO_Exaiptasia_pallida'[&!color=#0000ff]
+	'am-HO_Nematostella_vectensis'[&!color=#0000ff]
+	'di-ALch_Vitrella_brassicaformis'[&!color=#4c7e00]
+	'di-ALci_Oxytricha_trifallax'[&!color=#4c7e00]
+	'di-ALci_Stylonychia_lemnae'[&!color=#4c7e00]
+	'di-STch_Ochromonas_sp'[&!color=#83a100]
+	'di-STpx_Ectocarpus_siliculosus'[&!color=#83a100]
+	'di-SToo_Aphanomyces_astaci'[&!color=#83a100]
+	'di-CH_Auxenochlorella_protothecoides'[&!color=#00d904]
+	'di-CH_Chlorella_variabilis'[&!color=#00d904]
+	'di-CH_Coccomyxa_subellipsoidea'[&!color=#00d904]
+	'di-PL_Ananas_comosus'[&!color=#00a811]
+	'di-PL_Selaginella_moellendorffii'[&!color=#00a811]
+	'di-PL_Klebsormidium_nitens'[&!color=#00a811]
+	'di-RPbn_Cyanidioschyzon_merolae'[&!color=#62b800]
+	'di-RPbn_Galdieria_sulphuraria'[&!color=#62b800]
+	'di-RPbn_Porphyra_umbilicalis'[&!color=#62b800]
+	'di-RPfl_Chondrus_crispus'[&!color=#62b800]
+	'di-RPfl_Gracilariopsis_chorda'[&!color=#62b800]
+	'di-RPco_Compsopogon_coeruleus'[&!color=#62b800]
+	'di-RPrh_Rhodella_maculata'[&!color=#62b800]
+	'di-RPst_Rhodosorus_marinus'[&!color=#62b800]
+	'ex-EG_Angomonas_deanei'[&!color=#ff7847]
+	'ex-EG_Strigomonas_culicis'[&!color=#ff7847]
+	'ex-EG_Leishmania_braziliensis'[&!color=#ff7847]
+	'ex-EG_Leptomonas_pyrrhocoris'[&!color=#ff7847]
+	'ex-EG_Trypanosoma_brucei'[&!color=#ff7847]
+	'ex-EG_Trypanosoma_vivax'[&!color=#ff7847]
+	'ex-EG_Trypanosoma_grayi'[&!color=#ff7847]
+	'ex-EG_Trypanosoma_rangeli'[&!color=#ff7847]
+	'ex-EG_Bodo_saltans'[&!color=#ff7847]
+	'ex-EG_Neobodo_designis'[&!color=#ff7847]
+	'ex-EG_Eutreptiella_gymnastica'[&!color=#ff7847]
+	'ex-EG_Eutreptiella_gymnasticalike'[&!color=#ff7847]
+	'ex-HL_Acrasis_kona'[&!color=#ff306e]
+	'ex-HL_Naegleria_gruberi'[&!color=#ff306e]
+	'ex-HL_Percolomonas_cosmoAE1'[&!color=#ff306e]
+	'ex-HL_Percolomonas_cosmoWS'[&!color=#ff306e]
+	'ex-JA_Andalucia_godoyi'[&!color=#ff57ee]
+	'ex-JA_Seculamonas_ecuadoriensis'[&!color=#ff57ee]
+	'ub-AP_Amorphus_coralli'
+	'ub-AP_Asticcacaulis_biprosthecium'
+	'ub-AP_Caulobacter_henricii'
+	'ub-AP_Erythrobacter_sp'
+	'ub-AP_Novosphingobium_barchaimii'
+	'ub-AP_Kordiimonas_lacus'
+	'ub-AP_Oceanibacterium_hippocampi'
+	'ub-FC_Arsenicibacter_rosenii'
+	'ub-TB_Ardenticatena_maritima'
+	'ub-GP_Hydrocarboniphaga_effusa'
+	'ub-GP_Marinobacterium_lutimaris'
+	'ub-GP_Thalassomonas_actiniarum'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('am-AM_Acanthamoeba_castellanii':0.524313,((('am-AM_Dictyostelium_discoideumB':0.467217,'am-AMEumy_Clastostelium_recurvatum':0.340021)[&BP="100/100"]:0.141851,(('am-AM_Filamoeba_nolandi':0.324992,'am-AMVari_Protostelium_nocturnum':0.404672)[&BP="100/100"]:0.053982,'am-AMVari_Cavostelium_apophysatum':0.373379)[&BP="100/100"]:0.122425)[&BP="100/99"]:0.042761,(('am-AMCory_Diplochlamys_sp':0.502613,('am-AMEchi_Echinamoeba_exudans':0.394050,'am-AMEchi_Vermamoeba_vermiformis':0.383805)[&BP="97/95"]:0.046000)[&BP="73/82"]:0.030556,'am-AMElar_Cryptodifflugia_operculata':0.557909)[&BP="100/100"]:0.126073)[&BP="67/80"]:0.022779,(((('am-FU_Batrachochytrium_dendrobatidis':0.337738,'am-FU_Gonapodya_prolifera':0.433733)[&BP="100/100"]:0.064236,('am-FU_Mortierella_elongata':0.267772,'am-FU_Rhizophagus_irregularis':0.263189)[&BP="100/100"]:0.088146)[&BP="100/100"]:0.156579,(('am-HO_Acanthoecalike_sp':0.486210,('am-HO_Monosiga_brevicollis':0.291830,'am-HO_Salpingoeca_rosetta':0.274473)[&BP="100/100"]:0.148558)[&BP="100/100"]:0.124915,('am-HO_Branchiostoma_floridae':0.297328,('am-HO_Exaiptasia_pallida':0.141152,'am-HO_Nematostella_vectensis':0.130910)[&BP="100/100"]:0.157859)[&BP="100/100"]:0.158321)[&BP="100/100"]:0.098290)[&BP="100/100"]:0.107067,(((('di-ALch_Vitrella_brassicaformis':0.703627,('di-ALci_Oxytricha_trifallax':0.079606,'di-ALci_Stylonychia_lemnae':0.089250)[&BP="100/100"]:0.903629)[&BP="100/100"]:0.129146,(('di-STch_Ochromonas_sp':0.409234,'di-STpx_Ectocarpus_siliculosus':0.407301)[&BP="100/100"]:0.119883,'di-SToo_Aphanomyces_astaci':0.434012)[&BP="100/100"]:0.179447)[&BP="100/100"]:0.051077,(((('di-CH_Auxenochlorella_protothecoides':0.242493,'di-CH_Chlorella_variabilis':0.179834)[&BP="100/100"]:0.104170,'di-CH_Coccomyxa_subellipsoidea':0.242379)[&BP="100/100"]:0.153086,(('di-PL_Ananas_comosus':0.213649,'di-PL_Selaginella_moellendorffii':0.229679)[&BP="100/100"]:0.099804,'di-PL_Klebsormidium_nitens':0.251976)[&BP="100/100"]:0.089806)[&BP="100/100"]:0.178690,(('di-RPbn_Cyanidioschyzon_merolae':0.541953,'di-RPbn_Galdieria_sulphuraria':0.407151)[&BP="87/94"]:0.049789,((('di-RPbn_Porphyra_umbilicalis':0.437757,('di-RPfl_Chondrus_crispus':0.167594,'di-RPfl_Gracilariopsis_chorda':0.167199)[&BP="100/100"]:0.191385)[&BP="100/100"]:0.096568,('di-RPco_Compsopogon_coeruleus':0.403719,'di-RPrh_Rhodella_maculata':0.470881)[&BP="83/95"]:0.045791)[&BP="68/91"]:0.032932,'di-RPst_Rhodosorus_marinus':0.519729)[&BP="100/100"]:0.053282)[&BP="100/100"]:0.206051)[&BP="100/100"]:0.044958)[&BP="99/100"]:0.027476,((((((((('ex-EG_Angomonas_deanei':0.135147,'ex-EG_Strigomonas_culicis':0.129707)[&BP="100/100"]:0.056511,('ex-EG_Leishmania_braziliensis':0.114157,'ex-EG_Leptomonas_pyrrhocoris':0.079764)[&BP="100/100"]:0.083885)[&BP="100/100"]:0.100472,(('ex-EG_Trypanosoma_brucei':0.140166,'ex-EG_Trypanosoma_vivax':0.143973)[&BP="100/100"]:0.064487,('ex-EG_Trypanosoma_grayi':0.100538,'ex-EG_Trypanosoma_rangeli':0.126886)[&BP="100/100"]:0.030066)[&BP="100/100"]:0.102439)[&BP="100/100"]:0.144008,'ex-EG_Bodo_saltans':0.256567)[&BP="100/100"]:0.183340,'ex-EG_Neobodo_designis':0.413692)[&BP="100/100"]:0.535481,('ex-EG_Eutreptiella_gymnastica':0.174028,'ex-EG_Eutreptiella_gymnasticalike':0.164297)[&BP="100/100"]:0.560444)[&BP="100/100"]:0.311780,(('ex-HL_Acrasis_kona':0.438542,'ex-HL_Naegleria_gruberi':0.462998)[&BP="100/100"]:0.107593,('ex-HL_Percolomonas_cosmoAE1':0.534633,'ex-HL_Percolomonas_cosmoWS':0.407692)[&BP="100/100"]:0.247171)[&BP="100/100"]:0.173025)[&BP="100/100"]:0.065876,('ex-JA_Andalucia_godoyi':0.627154,'ex-JA_Seculamonas_ecuadoriensis':0.460872)[&BP="100/100"]:0.104819)[&BP="100/100"]:0.051482,(((('ub-AP_Amorphus_coralli':0.362377,('ub-AP_Asticcacaulis_biprosthecium':0.332308,'ub-AP_Caulobacter_henricii':0.260171)[&BP="100/100"]:0.245316)[&BP="100/100"]:0.117429,(('ub-AP_Erythrobacter_sp':0.200785,'ub-AP_Novosphingobium_barchaimii':0.193289)[&BP="100/100"]:0.399861,'ub-AP_Kordiimonas_lacus':0.365314)[&BP="100/100"]:0.093877)[&BP="96/100"]:0.051265,'ub-AP_Oceanibacterium_hippocampi':0.327117)[&BP="100/100"]:0.299783,(('ub-FC_Arsenicibacter_rosenii':1.109410,'ub-TB_Ardenticatena_maritima':1.160844)[&BP="100/100"]:0.267349,('ub-GP_Hydrocarboniphaga_effusa':0.588593,('ub-GP_Marinobacterium_lutimaris':0.470915,'ub-GP_Thalassomonas_actiniarum':0.415627)[&BP="100/100"]:0.318658)[&BP="100/100"]:0.405198)[&BP="100/100"]:0.200507)[&BP="100/100"]:0.560051)[&BP="67/70"]:0.017570)[&BP="100/100"]:0.032582)[&BP="100/100"]:0.084450);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#3b5680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="BP";
+	set branchLabels.fontName="Helvatica";
+	set branchLabels.fontSize=10;
+	set branchLabels.fontStyle=1;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="BP";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="SansSerif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=11.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=11.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Times";
+	set tipLabels.fontSize=14;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;

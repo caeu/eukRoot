@@ -1,0 +1,281 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=     180;
+	taxlabels
+	'am-AM_Acanthamoeba_castellanii_'[&!color=#6699ff]
+	'am-AM_Acytostelium_subglobosum_'[&!color=#6699ff]
+	'am-AM_Polysphondylium_pallidum_'[&!color=#6699ff]
+	'am-AM_Dictyostelium_discoideumB_'[&!color=#6699ff]
+	'am-AM_Dictyostelium_purpureum_'[&!color=#6699ff]
+	'am-AMEumy_Clastostelium_recurvatum_'[&!color=#6699ff]
+	'am-AM_Filamoeba_nolandi_'[&!color=#6699ff]
+	'am-AMVari_Protostelium_nocturnum_'[&!color=#6699ff]
+	'am-AMVari_Cavostelium_apophysatum_'[&!color=#6699ff]
+	'am-AMCory_Diplochlamys_sp_'[&!color=#6699ff]
+	'am-AMCory_Trichosphaerium_sp_'[&!color=#6699ff]
+	'am-AMEchi_Echinamoeba_exudans_'[&!color=#6699ff]
+	'am-AMEchi_Vermamoeba_vermiformis_'[&!color=#6699ff]
+	'am-AMElar_Cryptodifflugia_operculata_'[&!color=#6699ff]
+	'am-AMElar_Rhizamoeba_saxonica_'[&!color=#6699ff]
+	'am-FU_Allomyces_macrogynus_'[&!color=#0080ff]
+	'am-FU_Catenaria_anguillulae_'[&!color=#0080ff]
+	'am-FU_Batrachochytrium_dendrobatidis_'[&!color=#0080ff]
+	'am-FU_Spizellomyces_punctatus_'[&!color=#0080ff]
+	'am-FU_Rhizoclosmatium_globosum_'[&!color=#0080ff]
+	'am-FU_Gonapodya_prolifera_'[&!color=#0080ff]
+	'am-FU_Aspergillus_aculeatus_'[&!color=#0080ff]
+	'am-FU_Aspergillus_nidulans_'[&!color=#0080ff]
+	'am-FU_Laccaria_bicolor_'[&!color=#0080ff]
+	'am-FU_Moniliophthora_roreri_'[&!color=#0080ff]
+	'am-FU_Ustilago_maydis_'[&!color=#0080ff]
+	'am-FU_Mortierella_elongata_'[&!color=#0080ff]
+	'am-FU_Rhizophagus_irregularis_'[&!color=#0080ff]
+	'am-HO_Acanthoecalike_sp_'[&!color=#0000ff]
+	'am-HO_Monosiga_brevicollis_'[&!color=#0000ff]
+	'am-HO_Salpingoeca_rosetta_'[&!color=#0000ff]
+	'am-HO_Apis_mellifera_'[&!color=#0000ff]
+	'am-HO_Stegodyphus_mimosarum_'[&!color=#0000ff]
+	'am-HO_Priapulus_caudatus_'[&!color=#0000ff]
+	'am-HO_Branchiostoma_floridae_'[&!color=#0000ff]
+	'am-HO_Danio_rerio_'[&!color=#0000ff]
+	'am-HO_Exaiptasia_pallida_'[&!color=#0000ff]
+	'am-HO_Nematostella_vectensis_'[&!color=#0000ff]
+	'am-HO_Hydra_vulgaris_'[&!color=#0000ff]
+	'am-HO_Trichoplax_adhaerens_'[&!color=#0000ff]
+	'am-HO_Capsaspora_owczarzaki_'[&!color=#0000ff]
+	'di-ALap_Besnoitia_besnoiti_'[&!color=#4c7e00]
+	'di-ALap_Hammondia_hammondi_'[&!color=#4c7e00]
+	'di-ALap_Toxoplasma_gondii_'[&!color=#4c7e00]
+	'di-ALap_Neospora_caninum_'[&!color=#4c7e00]
+	'di-ALap_Cystoisospora_suis_'[&!color=#4c7e00]
+	'di-ALch_Chromera_velia_'[&!color=#4c7e00]
+	'di-ALch_Vitrella_brassicaformis_'[&!color=#4c7e00]
+	'di-ALdgy_Amphidinium_massartii_'[&!color=#4c7e00]
+	'di-ALdgy_Togula_jolla_'[&!color=#4c7e00]
+	'di-ALdp_Scrippsiella_Hangoei_'[&!color=#4c7e00]
+	'di-ALds_Polarella_glacialis_'[&!color=#4c7e00]
+	'di-ALpk_Perkinsus_marinus_'[&!color=#4c7e00]
+	'di-ALci_Oxytricha_trifallax_'[&!color=#4c7e00]
+	'di-ALci_Stylonychia_lemnae_'[&!color=#4c7e00]
+	'di-ALci_Paramecium_tetraurelia_'[&!color=#4c7e00]
+	'di-ALci_Tetrahymena_thermophila_'[&!color=#4c7e00]
+	'di-ALcp_Stentor_coeruleus_'[&!color=#4c7e00]
+	'di-RZcz_Bigelowiella_natans_'[&!color=#007e7d]
+	'di-RZcz_Chlorarachnion_reptans_'[&!color=#007e7d]
+	'di-RZcz_Lotharella_sp_'[&!color=#007e7d]
+	'di-RZcz_Partenskyella_glossopodia_'[&!color=#007e7d]
+	'di-RZfo_Ammonia_sp_'[&!color=#007e7d]
+	'di-RZfo_Rosalina_sp_'[&!color=#007e7d]
+	'di-RZfo_Elphidium_margaritaceum_'[&!color=#007e7d]
+	'di-RZfo_Reticulomyxa_filosa_'[&!color=#007e7d]
+	'di-RZcz_Plasmodiophora_brassicae_'[&!color=#007e7d]
+	'di-RZcz_Spongospora_subterranea_'[&!color=#007e7d]
+	'di-STbi_Cafeteria_roenbergensis_'[&!color=#83a100]
+	'di-STbi_Cafeteria_sp_'[&!color=#83a100]
+	'di-STlb_Aplanochytrium_sp_'[&!color=#83a100]
+	'di-STlb_Aplanochytrium_stocchinoi_'[&!color=#83a100]
+	'di-STlb_Schizochytrium_aggregatum_'[&!color=#83a100]
+	'di-STbp_Fistulifera_solaris_'[&!color=#83a100]
+	'di-STbp_Thalassiosira_pseudonana_'[&!color=#83a100]
+	'di-STch_Ochromonas_sp_'[&!color=#83a100]
+	'di-STeu_Nannochloropsis_gaditana_'[&!color=#83a100]
+	'di-STpx_Ectocarpus_siliculosus_'[&!color=#83a100]
+	'di-SToo_Albugo_candida_'[&!color=#83a100]
+	'di-SToo_Phytophthora_sp_'[&!color=#83a100]
+	'di-SToo_Aphanomyces_astaci_'[&!color=#83a100]
+	'di-STpl_Blastocystis_hominis_'[&!color=#83a100]
+	'di-STpl_Blastocystis_sp_'[&!color=#83a100]
+	'di-CH_Auxenochlorella_protothecoides_'[&!color=#00d904]
+	'di-CH_Chlorella_variabilis_'[&!color=#00d904]
+	'di-CH_Coccomyxa_subellipsoidea_'[&!color=#00d904]
+	'di-CH_Chlamydomonas_reinhardtii_'[&!color=#00d904]
+	'di-CH_Volvox_carteri_'[&!color=#00d904]
+	'di-PL_Gonium_pectorale_'[&!color=#00a811]
+	'di-CH_Monoraphidium_neglectum_'[&!color=#00d904]
+	'di-PL_Ananas_comosus_'[&!color=#00a811]
+	'di-PL_Oryza_brachyantha_'[&!color=#00a811]
+	'di-PL_Selaginella_moellendorffii_'[&!color=#00a811]
+	'di-PL_Marchantia_polymorpha_'[&!color=#00a811]
+	'di-PL_Physcomitrella_patens_'[&!color=#00a811]
+	'di-PL_Klebsormidium_nitens_'[&!color=#00a811]
+	'di-RPbn_Cyanidioschyzon_merolae_'[&!color=#62b800]
+	'di-RPbn_Galdieria_sulphuraria_'[&!color=#62b800]
+	'di-RPbn_Porphyra_umbilicalis_'[&!color=#62b800]
+	'di-RPfl_Chondrus_crispus_'[&!color=#62b800]
+	'di-RPfl_Gracilariopsis_chorda_'[&!color=#62b800]
+	'di-RPco_Compsopogon_coeruleus_'[&!color=#62b800]
+	'di-RPrh_Rhodella_maculata_'[&!color=#62b800]
+	'di-RPst_Rhodosorus_marinus_'[&!color=#62b800]
+	'di-CRcr_Cryptomonas_paramecium_'[&!color=#dbb700]
+	'di-CRcr_Hemiselmis_andersenii_'[&!color=#dbb700]
+	'di-CRpy_Guillardia_theta_'[&!color=#dbb700]
+	'di-CRpy_Proteomonas_sulcata_'[&!color=#dbb700]
+	'di-CRpy_Rhodomonas_salina_'[&!color=#dbb700]
+	'di-CRxx_Palpitomonas_bilix_'[&!color=#dbb700]
+	'ex-EG_Angomonas_deanei_'[&!color=#ff7847]
+	'ex-EG_Strigomonas_culicis_'[&!color=#ff7847]
+	'ex-EG_Leishmania_braziliensis_'[&!color=#ff7847]
+	'ex-EG_Leptomonas_pyrrhocoris_'[&!color=#ff7847]
+	'ex-EG_Trypanosoma_brucei_'[&!color=#ff7847]
+	'ex-EG_Trypanosoma_vivax_'[&!color=#ff7847]
+	'ex-EG_Trypanosoma_grayi_'[&!color=#ff7847]
+	'ex-EG_Trypanosoma_rangeli_'[&!color=#ff7847]
+	'ex-EG_Bodo_saltans_'[&!color=#ff7847]
+	'ex-EG_Neobodo_designis_'[&!color=#ff7847]
+	'ex-EG_Eutreptiella_gymnastica_'[&!color=#ff7847]
+	'ex-EG_Eutreptiella_gymnasticalike_'[&!color=#ff7847]
+	'ex-HL_Acrasis_kona_'[&!color=#ff306e]
+	'ex-HL_Naegleria_gruberi_'[&!color=#ff306e]
+	'ex-HL_Percolomonas_cosmoAE1_'[&!color=#ff306e]
+	'ex-HL_Percolomonas_cosmoWS_'[&!color=#ff306e]
+	'ex-JA_Andalucia_godoyi_'[&!color=#ff57ee]
+	'ex-JA_Seculamonas_ecuadoriensis_'[&!color=#ff57ee]
+	'ub-AB_Chloracidobacterium_thermophilum_'
+	'ub-AB_Pyrinomonas_methylaliphatogenes_'
+	'ub-DP_Archangium_gephyra_'
+	'ub-DP_Cystobacter_fuscus_'
+	'ub-DP_Corallococcus_sp_'
+	'ub-DP_Hyalangium_minutum_'
+	'ub-DP_Stigmatella_aurantiaca_'
+	'ub-DP_Myxococcus_xanthus_'
+	'ub-TB_Ardenticatena_maritima_'
+	'ub-TB_Longilinea_arvoryzae_'
+	'ub-TB_Streptomyces_sp_'
+	'ub-BA_Aliifodinibius_roseus_'
+	'ub-FC_Arsenicibacter_rosenii_'
+	'ub-FC_Fluviicola_taffensis_'
+	'ub-FC_Chitinophaga_eiseniae_'
+	'ub-PV_Chthoniobacter_flavus_'
+	'ub-PV_Methylacidiphilum_infernorum_'
+	'ub-PV_Coraliomargarita_akajimensis_'
+	'ub-PV_Opitutus_terrae_'
+	'ub-PV_Paludisphaera_borealis_'
+	'ub-GP_Aestuariibacter_aggregatus_'
+	'ub-GP_Alteromonas_australica_'
+	'ub-GP_Lacimicrobium_alkaliphilum_'
+	'ub-GP_Pseudoalteromonas_atlantica_'
+	'ub-GP_Thalassomonas_actiniarum_'
+	'ub-GP_Idiomarina_salinarum_'
+	'ub-GP_Hafnia_sp_'
+	'ub-GP_Salinivibrio_sp_'
+	'ub-GP_Vibrio_nigripulchritudo_'
+	'ub-GP_Marinobacterium_lutimaris_'
+	'ub-GP_Marinobacterium_rhizophilum_'
+	'ub-GP_Marinospirillum_alkaliphilum_'
+	'ub-GP_Oceanospirillum_maris_'
+	'ub-GP_Oceanicoccus_sagamiensis_'
+	'ub-GP_Hydrocarboniphaga_effusa_'
+	'ub-AP_Altererythrobacter_atlanticus_'
+	'ub-AP_Erythrobacter_sp_'
+	'ub-AP_Novosphingobium_barchaimii_'
+	'ub-AP_Sphingomonas_taxi_'
+	'ub-AP_Pacificimonas_flava_'
+	'ub-AP_Kordiimonas_lacus_'
+	'ub-AP_Amorphus_coralli_'
+	'ub-AP_Asticcacaulis_biprosthecium_'
+	'ub-AP_Caulobacter_henricii_'
+	'ub-AP_Oceanibacterium_hippocampi_'
+	'ub-AP_Azospirillum_brasilense_'
+	'ub-AP_Nitrospirillum_amazonense_'
+	'ub-AP_Rhodospirillum_centenum_'
+	'ub-AP_Skermanella_stibiiresistens_'
+	'ub-AP_Caenispirillum_salinarum_'
+	'ub-AP_Insolitispirillum_peregrinum_'
+	'ub-AP_Phaeospirillum_fulvum_'
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] ('am-AM_Acanthamoeba_castellanii_':0.432812,(((('am-AM_Acytostelium_subglobosum_':0.092919,'am-AM_Polysphondylium_pallidum_':0.088626)[&BP="100/100"]:0.087917,('am-AM_Dictyostelium_discoideumB_':0.106518,'am-AM_Dictyostelium_purpureum_':0.092526)[&BP="100/100"]:0.111359)[&BP="100/100"]:0.200561,'am-AMEumy_Clastostelium_recurvatum_':0.280155)[&BP="100/100"]:0.099776,(('am-AM_Filamoeba_nolandi_':0.273594,'am-AMVari_Protostelium_nocturnum_':0.335189)[&BP="100/100"]:0.054491,'am-AMVari_Cavostelium_apophysatum_':0.333448)[&BP="100/100"]:0.105730)[&BP="95.5/97"]:0.034834,(((('am-AMCory_Diplochlamys_sp_':0.301162,'am-AMCory_Trichosphaerium_sp_':0.382733)[&BP="100/100"]:0.101822,('am-AMEchi_Echinamoeba_exudans_':0.307463,'am-AMEchi_Vermamoeba_vermiformis_':0.309913)[&BP="100/100"]:0.050166)[&BP="55.3/64"]:0.027935,('am-AMElar_Cryptodifflugia_operculata_':0.350064,'am-AMElar_Rhizamoeba_saxonica_':0.481720)[&BP="100/100"]:0.101445)[&BP="100/100"]:0.097109,((((('am-FU_Allomyces_macrogynus_':0.129522,'am-FU_Catenaria_anguillulae_':0.165868)[&BP="100/100"]:0.201519,((('am-FU_Batrachochytrium_dendrobatidis_':0.220915,'am-FU_Spizellomyces_punctatus_':0.157795)[&BP="96/96"]:0.036396,'am-FU_Rhizoclosmatium_globosum_':0.228718)[&BP="100/100"]:0.075925,'am-FU_Gonapodya_prolifera_':0.349896)[&BP="100/100"]:0.047851)[&BP="97.9/98"]:0.030891,((('am-FU_Aspergillus_aculeatus_':0.057936,'am-FU_Aspergillus_nidulans_':0.061290)[&BP="100/100"]:0.340943,(('am-FU_Laccaria_bicolor_':0.116847,'am-FU_Moniliophthora_roreri_':0.127950)[&BP="100/100"]:0.180993,'am-FU_Ustilago_maydis_':0.243657)[&BP="100/100"]:0.109994)[&BP="100/100"]:0.080314,('am-FU_Mortierella_elongata_':0.222068,'am-FU_Rhizophagus_irregularis_':0.231570)[&BP="100/100"]:0.050784)[&BP="100/100"]:0.049664)[&BP="100/100"]:0.119526,((('am-HO_Acanthoecalike_sp_':0.379928,('am-HO_Monosiga_brevicollis_':0.229032,'am-HO_Salpingoeca_rosetta_':0.222956)[&BP="100/100"]:0.112969)[&BP="100/100"]:0.100320,((((('am-HO_Apis_mellifera_':0.328323,'am-HO_Stegodyphus_mimosarum_':0.228446)[&BP="100/100"]:0.054210,'am-HO_Priapulus_caudatus_':0.288671)[&BP="100/100"]:0.058310,('am-HO_Branchiostoma_floridae_':0.213701,'am-HO_Danio_rerio_':0.226853)[&BP="100/100"]:0.039913)[&BP="100/100"]:0.062697,(('am-HO_Exaiptasia_pallida_':0.126340,'am-HO_Nematostella_vectensis_':0.117581)[&BP="100/100"]:0.113473,'am-HO_Hydra_vulgaris_':0.341214)[&BP="100/100"]:0.047560)[&BP="100/100"]:0.041134,'am-HO_Trichoplax_adhaerens_':0.332579)[&BP="100/100"]:0.088236)[&BP="89.1/87"]:0.031582,'am-HO_Capsaspora_owczarzaki_':0.355227)[&BP="100/100"]:0.065991)[&BP="100/100"]:0.082601,(((((((('di-ALap_Besnoitia_besnoiti_':0.060750,(('di-ALap_Hammondia_hammondi_':0.010073,'di-ALap_Toxoplasma_gondii_':0.011628)[&BP="100/100"]:0.037727,'di-ALap_Neospora_caninum_':0.035177)[&BP="100/100"]:0.039550)[&BP="100/100"]:0.068802,'di-ALap_Cystoisospora_suis_':0.115661)[&BP="100/100"]:0.323207,('di-ALch_Chromera_velia_':0.299052,'di-ALch_Vitrella_brassicaformis_':0.246711)[&BP="100/100"]:0.057968)[&BP="100/100"]:0.119915,(('di-ALdgy_Amphidinium_massartii_':0.187292,('di-ALdgy_Togula_jolla_':0.156790,('di-ALdp_Scrippsiella_Hangoei_':0.192500,'di-ALds_Polarella_glacialis_':0.151330)[&BP="100/100"]:0.038141)[&BP="100/100"]:0.049791)[&BP="100/100"]:0.180306,'di-ALpk_Perkinsus_marinus_':0.438283)[&BP="100/100"]:0.107336)[&BP="100/100"]:0.177049,((('di-ALci_Oxytricha_trifallax_':0.080599,'di-ALci_Stylonychia_lemnae_':0.083625)[&BP="100/100"]:0.416984,('di-ALci_Paramecium_tetraurelia_':0.360986,'di-ALci_Tetrahymena_thermophila_':0.339831)[&BP="100/100"]:0.187538)[&BP="100/100"]:0.084975,'di-ALcp_Stentor_coeruleus_':0.543005)[&BP="100/100"]:0.176303)[&BP="100/100"]:0.095262,(((((('di-RZcz_Bigelowiella_natans_':0.124298,'di-RZcz_Chlorarachnion_reptans_':0.120410)[&BP="100/100"]:0.037310,'di-RZcz_Lotharella_sp_':0.127266)[&BP="97.1/99"]:0.032324,'di-RZcz_Partenskyella_glossopodia_':0.129181)[&BP="100/100"]:0.313236,((('di-RZfo_Ammonia_sp_':0.075945,'di-RZfo_Rosalina_sp_':0.093726)[&BP="82.4/98"]:0.032639,'di-RZfo_Elphidium_margaritaceum_':0.116756)[&BP="100/100"]:0.214797,'di-RZfo_Reticulomyxa_filosa_':0.331600)[&BP="100/100"]:0.355586)[&BP="51.3/87"]:0.045306,('di-RZcz_Plasmodiophora_brassicae_':0.211546,'di-RZcz_Spongospora_subterranea_':0.194906)[&BP="100/100"]:0.284188)[&BP="100/100"]:0.064849,(((('di-STbi_Cafeteria_roenbergensis_':0.430435,'di-STbi_Cafeteria_sp_':0.320018)[&BP="100/100"]:0.059150,(('di-STlb_Aplanochytrium_sp_':0.093500,'di-STlb_Aplanochytrium_stocchinoi_':0.089893)[&BP="100/100"]:0.183889,'di-STlb_Schizochytrium_aggregatum_':0.266400)[&BP="100/100"]:0.164987)[&BP="74/76"]:0.036324,((('di-STbp_Fistulifera_solaris_':0.254437,'di-STbp_Thalassiosira_pseudonana_':0.214775)[&BP="100/100"]:0.231244,('di-STch_Ochromonas_sp_':0.337171,('di-STeu_Nannochloropsis_gaditana_':0.318131,'di-STpx_Ectocarpus_siliculosus_':0.321301)[&BP="99.5/100"]:0.042245)[&BP="99.4/99"]:0.035490)[&BP="100/100"]:0.073102,(('di-SToo_Albugo_candida_':0.233984,'di-SToo_Phytophthora_sp_':0.132193)[&BP="100/100"]:0.063315,'di-SToo_Aphanomyces_astaci_':0.181012)[&BP="100/100"]:0.183670)[&BP="100/100"]:0.052024)[&BP="100/96"]:0.032251,('di-STpl_Blastocystis_hominis_':0.129765,'di-STpl_Blastocystis_sp_':0.123136)[&BP="100/100"]:0.532614)[&BP="100/100"]:0.053819)[&BP="94.6/88"]:0.022981)[&BP="100/100"]:0.030928,(((((('di-CH_Auxenochlorella_protothecoides_':0.200692,'di-CH_Chlorella_variabilis_':0.149615)[&BP="100/100"]:0.077089,'di-CH_Coccomyxa_subellipsoidea_':0.206366)[&BP="100/100"]:0.041882,(('di-CH_Chlamydomonas_reinhardtii_':0.067797,('di-CH_Volvox_carteri_':0.076402,'di-PL_Gonium_pectorale_':0.068108)[&BP="97.2/98"]:0.021467)[&BP="100/100"]:0.170767,'di-CH_Monoraphidium_neglectum_':0.229698)[&BP="100/100"]:0.111688)[&BP="100/100"]:0.087170,(((('di-PL_Ananas_comosus_':0.066681,'di-PL_Oryza_brachyantha_':0.085417)[&BP="100/100"]:0.148894,'di-PL_Selaginella_moellendorffii_':0.201313)[&BP="95.9/96"]:0.030775,('di-PL_Marchantia_polymorpha_':0.123409,'di-PL_Physcomitrella_patens_':0.127184)[&BP="100/100"]:0.033985)[&BP="100/100"]:0.081975,'di-PL_Klebsormidium_nitens_':0.201856)[&BP="100/100"]:0.087607)[&BP="100/100"]:0.133823,(('di-RPbn_Cyanidioschyzon_merolae_':0.426152,'di-RPbn_Galdieria_sulphuraria_':0.347097)[&BP="99.5/100"]:0.051779,((('di-RPbn_Porphyra_umbilicalis_':0.325203,('di-RPfl_Chondrus_crispus_':0.148464,'di-RPfl_Gracilariopsis_chorda_':0.143925)[&BP="100/100"]:0.149302)[&BP="100/100"]:0.076767,('di-RPco_Compsopogon_coeruleus_':0.313682,'di-RPrh_Rhodella_maculata_':0.363943)[&BP="100/98"]:0.048753)[&BP="64.7/80"]:0.029850,'di-RPst_Rhodosorus_marinus_':0.408440)[&BP="100/100"]:0.045310)[&BP="100/100"]:0.155753)[&BP="100/100"]:0.042548,((('di-CRcr_Cryptomonas_paramecium_':0.184933,'di-CRcr_Hemiselmis_andersenii_':0.205586)[&BP="28.6/64"]:0.031078,('di-CRpy_Guillardia_theta_':0.174893,('di-CRpy_Proteomonas_sulcata_':0.157332,'di-CRpy_Rhodomonas_salina_':0.153298)[&BP="99.9/100"]:0.032954)[&BP="100/100"]:0.037229)[&BP="100/100"]:0.265228,'di-CRxx_Palpitomonas_bilix_':0.418994)[&BP="100/100"]:0.069603)[&BP="54.1/70"]:0.025078)[&BP="100/100"]:0.027792,((((((((('ex-EG_Angomonas_deanei_':0.124166,'ex-EG_Strigomonas_culicis_':0.122860)[&BP="100/100"]:0.049696,('ex-EG_Leishmania_braziliensis_':0.105644,'ex-EG_Leptomonas_pyrrhocoris_':0.074236)[&BP="100/100"]:0.072442)[&BP="100/100"]:0.080705,(('ex-EG_Trypanosoma_brucei_':0.124408,'ex-EG_Trypanosoma_vivax_':0.128996)[&BP="100/100"]:0.057683,('ex-EG_Trypanosoma_grayi_':0.087349,'ex-EG_Trypanosoma_rangeli_':0.112105)[&BP="100/100"]:0.030639)[&BP="100/100"]:0.085759)[&BP="100/100"]:0.117875,'ex-EG_Bodo_saltans_':0.211255)[&BP="100/100"]:0.137036,'ex-EG_Neobodo_designis_':0.308847)[&BP="100/100"]:0.329548,('ex-EG_Eutreptiella_gymnastica_':0.137258,'ex-EG_Eutreptiella_gymnasticalike_':0.139220)[&BP="100/100"]:0.362462)[&BP="100/100"]:0.235185,(('ex-HL_Acrasis_kona_':0.347202,'ex-HL_Naegleria_gruberi_':0.376991)[&BP="100/100"]:0.088687,('ex-HL_Percolomonas_cosmoAE1_':0.406605,'ex-HL_Percolomonas_cosmoWS_':0.318760)[&BP="100/100"]:0.185302)[&BP="100/100"]:0.137340)[&BP="100/100"]:0.071439,('ex-JA_Andalucia_godoyi_':0.467844,'ex-JA_Seculamonas_ecuadoriensis_':0.358845)[&BP="100/100"]:0.089887)[&BP="100/100"]:0.039712,(((((('ub-AB_Chloracidobacterium_thermophilum_':0.449532,'ub-AB_Pyrinomonas_methylaliphatogenes_':0.364929)[&BP="100/100"]:0.169765,(('ub-DP_Archangium_gephyra_':0.079275,'ub-DP_Cystobacter_fuscus_':0.077103)[&BP="100/100"]:0.056054,('ub-DP_Corallococcus_sp_':0.088162,(('ub-DP_Hyalangium_minutum_':0.074103,'ub-DP_Stigmatella_aurantiaca_':0.093698)[&BP="100/100"]:0.066639,'ub-DP_Myxococcus_xanthus_':0.095732)[&BP="69.5/65"]:0.029603)[&BP="100/81"]:0.037708)[&BP="100/100"]:0.489230)[&BP="100/100"]:0.085546,(('ub-TB_Ardenticatena_maritima_':0.401395,'ub-TB_Longilinea_arvoryzae_':0.607479)[&BP="100/100"]:0.194222,'ub-TB_Streptomyces_sp_':0.806302)[&BP="100/100"]:0.092636)[&BP="99.5/99"]:0.063533,(('ub-BA_Aliifodinibius_roseus_':0.503058,(('ub-FC_Arsenicibacter_rosenii_':0.309941,'ub-FC_Fluviicola_taffensis_':0.404156)[&BP="100/100"]:0.080179,'ub-FC_Chitinophaga_eiseniae_':0.345466)[&BP="100/100"]:0.243604)[&BP="100/100"]:0.205570,((('ub-PV_Chthoniobacter_flavus_':0.406867,'ub-PV_Methylacidiphilum_infernorum_':0.537038)[&BP="100/100"]:0.106822,('ub-PV_Coraliomargarita_akajimensis_':0.376624,'ub-PV_Opitutus_terrae_':0.322178)[&BP="100/100"]:0.206803)[&BP="100/100"]:0.254152,'ub-PV_Paludisphaera_borealis_':0.778595)[&BP="100/99"]:0.072605)[&BP="48/72"]:0.046176)[&BP="100/100"]:0.124778,((((((((('ub-GP_Aestuariibacter_aggregatus_':0.111702,'ub-GP_Alteromonas_australica_':0.104956)[&BP="100/100"]:0.060568,'ub-GP_Lacimicrobium_alkaliphilum_':0.156220)[&BP="98/95"]:0.026930,'ub-GP_Pseudoalteromonas_atlantica_':0.152281)[&BP="100/100"]:0.076544,'ub-GP_Thalassomonas_actiniarum_':0.232805)[&BP="100/100"]:0.046735,'ub-GP_Idiomarina_salinarum_':0.276225)[&BP="100/100"]:0.066382,('ub-GP_Hafnia_sp_':0.247675,('ub-GP_Salinivibrio_sp_':0.137960,'ub-GP_Vibrio_nigripulchritudo_':0.199691)[&BP="100/100"]:0.079262)[&BP="100/100"]:0.154297)[&BP="100/100"]:0.140114,('ub-GP_Marinobacterium_lutimaris_':0.179425,'ub-GP_Marinobacterium_rhizophilum_':0.173347)[&BP="100/100"]:0.108180)[&BP="92.9/91"]:0.053126,(('ub-GP_Marinospirillum_alkaliphilum_':0.213193,'ub-GP_Oceanospirillum_maris_':0.219947)[&BP="100/100"]:0.084645,'ub-GP_Oceanicoccus_sagamiensis_':0.338430)[&BP="69.5/76"]:0.035433)[&BP="100/100"]:0.177651,'ub-GP_Hydrocarboniphaga_effusa_':0.436403)[&BP="100/100"]:0.252463)[&BP="100/100"]:0.172338,(((((((('ub-AP_Altererythrobacter_atlanticus_':0.122071,'ub-AP_Erythrobacter_sp_':0.152853)[&BP="100/100"]:0.049859,'ub-AP_Novosphingobium_barchaimii_':0.145776)[&BP="100/100"]:0.099219,'ub-AP_Sphingomonas_taxi_':0.210104)[&BP="100/100"]:0.096875,'ub-AP_Pacificimonas_flava_':0.237680)[&BP="100/100"]:0.150931,'ub-AP_Kordiimonas_lacus_':0.296286)[&BP="100/100"]:0.063558,('ub-AP_Amorphus_coralli_':0.302930,('ub-AP_Asticcacaulis_biprosthecium_':0.254564,'ub-AP_Caulobacter_henricii_':0.199191)[&BP="100/100"]:0.184659)[&BP="100/100"]:0.081066)[&BP="100/100"]:0.050916,'ub-AP_Oceanibacterium_hippocampi_':0.269020)[&BP="98.9/98"]:0.034266,(('ub-AP_Azospirillum_brasilense_':0.171924,(('ub-AP_Nitrospirillum_amazonense_':0.160434,'ub-AP_Rhodospirillum_centenum_':0.151472)[&BP="100/100"]:0.079859,'ub-AP_Skermanella_stibiiresistens_':0.204221)[&BP="39.8/65"]:0.034157)[&BP="100/100"]:0.087679,(('ub-AP_Caenispirillum_salinarum_':0.183710,'ub-AP_Insolitispirillum_peregrinum_':0.204579)[&BP="100/100"]:0.096249,'ub-AP_Phaeospirillum_fulvum_':0.258795)[&BP="100/100"]:0.055648)[&BP="100/100"]:0.053065)[&BP="100/100"]:0.224146)[&BP="100/100"]:0.332301)[&BP="88.1/91"]:0.023893)[&BP="100/100"]:0.033454)[&BP="100/100"]:0.080743)[&BP="29.6/59"]:0.024147);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=2.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#3b5680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="BP";
+	set branchLabels.fontName="Helvatica";
+	set branchLabels.fontSize=10;
+	set branchLabels.fontStyle=1;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="BP";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="SansSerif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=11.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=11.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Times";
+	set tipLabels.fontSize=14;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
