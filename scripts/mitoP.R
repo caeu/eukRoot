@@ -3,7 +3,6 @@ library(parallel)
 #library(ggplot2)
 library(Rfast)
 library(Rfast2)
-#library(phangorn) #delete
 library(ape)
 myCores <- if (detectCores() > 2L) detectCores() - 2
 
@@ -76,6 +75,12 @@ catAAbin <- function(x,
 ##############################
 ##### find factor ############
 ##############################
+# Find the closest number to x that is divisible by y
+# e.g. diiv(50, 10) #ans 50
+# e.g. diiv(54, 10) #ans 50
+# e.g. diiv(55, 10) #ans 60
+# e.g. diiv(46, 10) #ans 50
+
 diiv <-
   function(x, y) {
     if (x %% y >= y - (x %% y))
