@@ -104,12 +104,20 @@ unwhich <-
 ######### subsample Function #############
 
 subsamG <-
-  function(x, y = 0L, z = 0L, v = 0L) {
+  function(x, y = 0L, z = 0L, v = 0L, seed = NULL) {
     # x: object of class multiAAbin list, that contains the single gene alignments
     # y: The desired subsample size (number of genes per subsample)
     # z: The desired approximate Number of subsamples to generate
     # v: The desired number times each gene to be sampled
     # --Note-- set either z or v, otherwise, v is considered.
+    
+    # adding seed for reproducibility
+    if (!is.null(seed)) {
+      old_seed <- .Random.seed
+      set.seed(seed)
+      on.exit({.Random.see <<- old_seed})
+    }
+    
     orgx <- x
     u <- sapply(x, ncol)
     w <- length(x)
