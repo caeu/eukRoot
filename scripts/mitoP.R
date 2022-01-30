@@ -4,6 +4,7 @@ library(parallel)
 library(Rfast)
 library(Rfast2)
 library(ape)
+
 myCores <- if (detectCores() > 2L) detectCores() - 2
 
 
@@ -112,6 +113,7 @@ subsamG <-
     # --Note-- set either z or v, otherwise, v is considered.
     
     # adding seed for reproducibility
+    # use provided seed, then revert to the original random seed on exit
     if (!is.null(seed)) {
       old_seed <- .Random.seed
       set.seed(seed)
